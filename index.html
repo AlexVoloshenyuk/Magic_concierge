@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Magic Concierge</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+    </script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="../bootstrap_learning/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+</head>
+
+<body>
+    <!-- Шапка сайта -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img src="../bootstrap_learning/img/logo1.svg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Главная </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Про нас </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Сервисы </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Контакты </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Команда</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div id="large-header" class="large-header">
+        <canvas id="demo-canvas"></canvas>
+        <h1 class="main-title">Magic <span class="thin">Concierge</span></h1>
+    </div>
+    <!-- Основной блок сайта -->
+    <!-- <div class="container-fluid">
+        <div class="row jumbotron animated wobble">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi dolor explicabo totam
+                    voluptate expedita consequuntur alias sit repudiandae ad eaque ex, ut quam quod ipsa provident
+                    maxime beatae quasi earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti
+                    corporis magnam error nobis nam doloribus optio perspiciatis accusamus? Ducimus at eum dicta? Vitae
+                    velit mollitia voluptatum a nobis animi?</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#"><button class="btn btn-success btn-lg" type="button">Подробнее</button></a>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- Карточки с услугам -->
+    <div class="container-fluid padding">
+        <div class="row alert text-center">
+            <div class="col-12">
+                <h1 class="display-4">Услуги которые мы предоставляем</h1>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="container padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../bootstrap_learning/img/card.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Организация ивентов</h2>
+                        <p class="card-text">Хороший ивент – это идеально спланированный ивент!</p>
+                        <a href="#" class="btn btn-warning">Посмотреть</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../bootstrap_learning/img/card3.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Трансфер</h2>
+                        <p class="card-text">Клиенты Magic Concierge ценят комфорт и безупречный уровень
+                            сервиса. Именно поэтому услуга Business Transferпользуется широкой популярностью в любое
+                            время суток и 12 месяцев в году.
+                        </p>
+                        <a href="#" class="btn btn-warning">Посмотреть</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../bootstrap_learning/img/translate.png" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Услуги переводчика</h2>
+                        <p class="card-text"><br>Визит в другую страну может оказаться напряженным из-за языкового
+                            барьера,
+                            но мы сделаем все, чтобы вы не ощутили этой проблемы! </p><br><br>
+                        <a href="#" class="btn btn-warning">Посмотреть</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../bootstrap_learning/img/tour.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Экскурсии</h2>
+                        <p class="card-text">Что вы знаете об Украине? Если только то, что можно увидеть из окна
+                            гостиничного номера или прочесть в туристическом журнале, значит вам сюда! </p>
+                        <a href="#" class="btn btn-warning">Посмотреть</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../bootstrap_learning/img/models.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Хостес модели</h2>
+                        <p class="card-text"><br>Magic Concierge специализируется на подборе профессиональных хостес и
+                            хостов для поддержки международных мероприятий, конференций, выставок. </p><br>
+                        <a href="#" class="btn btn-warning">Посмотреть</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../bootstrap_learning/img/building.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Услуги риелтора</h2>
+                        <p class="card-text">Украина – страна великолепных возможностей для ведения успешного
+                            бизнеса.<br>
+                            Планируете приобрести жилую или коммерческую недвижимость?
+                        </p>
+                        <a href="#" class="btn btn-warning">Посмотреть</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../bootstrap_learning/img/hotel.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Аренда апартаментов и отелей</h2>
+                        <p class="card-text"><br>Планируете бизнес-поездку в Украину или собираетесь провести несколько
+                            дней
+                            отпуска в нашей гостеприимной стране? </p><br>
+                        <a href="#" class="btn btn-warning">Посмотреть</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../bootstrap_learning/img/law.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Услуги юриста и адвоката</h2>
+                        <p class="card-text"><br>Необходимо юридическое сопровождение на встречах или помощь при
+                            подготовке документов? Профессиональные юристы и адвокаты обеспечат вашу правовую
+                            безопасность. </p><br>
+                        <a href="#" class="btn btn-warning">Посмотреть</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../bootstrap_learning/img/club.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Резерв клубов и ресторанов</h2>
+                        <p class="card-text">Добро пожаловать в лучшие клубы и рестораны Киева! Столица по праву
+                            считается не только бизнес-центром нашей гостеприимной страны, но и настоящей меккой
+                            развлечений, ведь тот, кто хорошо работает, должен отлично отдыхать! </p>
+                        <a href="#" class="btn btn-warning">Посмотреть</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../bootstrap_learning/img/card3.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Аренда автомобилей класса VIP и приватных самолетов</h2>
+                        <p class="card-text">Время стоит денег, а время успешного бизнесмена – очень больших денег. </p>
+                        <a href="#" class="btn btn-warning">Посмотреть</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../bootstrap_learning/img/health.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Красота и здоровье</h2>
+                        <p class="card-text">Всем известно, что уровень медицины и косметологии в Украине отвечает
+                            международным стандартам, при этом цены на услуги остаются самыми низкими в Европе. </p>
+                        <br>
+                        <a href="#" class="btn btn-warning">Посмотреть</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../bootstrap_learning/img/bodyguard.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="card-title">Безопасность</h2>
+                        <p class="card-text">Уверенность в собственной безопасности – это базовая потребность каждого
+                            человека.Ценность жизни многократно увеличивается, когда есть, что терять. Закажите
+                            персональную охрану в компании Magic Concierge. </p>
+                        <a href="#" class="btn btn-warning">Посмотреть</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Простая секция с изображением -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="offset-lg-1 col-lg-4">
+                <h2>Что-то про сервис</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos reiciendis, quos esse quae inventore
+                    accusantium recusandae deleniti harum voluptatem sunt est, autem cum ratione voluptatibus saepe
+                    atque. Veritatis, molestias dolore?<br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi distinctio atque ducimus
+                    doloribus unde! Quo accusantium animi eius dolores aliquam cum, modi ratione aperiam hic fugiat quod
+                    magnam natus obcaecati?<br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi distinctio atque ducimus
+                    doloribus unde! Quo accusantium animi eius dolores aliquam cum, modi ratione aperiam hic fugiat quod
+                    magnam natus obcaecati?</p>
+                <br>
+                <a href="#" class="btn btn-danger">Читать далее</a>
+            </div>
+            <div class="col-lg-6">
+                <br>
+                <img src="../bootstrap_learning/img/about.jpeg" class="img-fluid">
+
+            </div>
+        </div>
+    </div>
+    <!-- Блок с фиксированным изображением -->
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed">
+
+            </div>
+        </div>
+    </figure>
+    <!-- Закрытая секция -->
+    <!-- <div class="text-center">
+        <button type="button" id="gifsBtn" class="btn btn-success " data-toggle="collapse" data-target="#gifs">Открыть
+            блок</button>
+    </div>
+    <div id="gifs" class="collapse">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-sm-6 col-md-3">
+                    <img src="../bootstrap_learning/img/gold.gif" class="gif">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img src="../bootstrap_learning/img/fly.gif" class="gif">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img src="../bootstrap_learning/img/earth.gif" class="gif">
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <img src="../bootstrap_learning/img/dog.gif" class="gif">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Блок с описанием компании-->
+    <div class="container-fluid">
+        <div class="row text-center alert">
+            <div class="col-12">
+                <h1 class="display-4">Почему мы?</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead animated wobble">Дорогие друзья, большое спасибо за доверие! У нас индивидуальный подход
+                    к каждому
+                    клиенту, мы сделаем все, чтобы каждому из вас было комфортно и незабываемо, что бы вы хотели
+                    вернуться сюда снова!<br>
+                    Мы постараемся сделать так , чтобы вы увидели нашу прекрасную страну и почувствовали доброту и
+                    искренность украинского народа!</p>
+            </div>
+        </div>
+    </div>
+    <!-- Блок с описание услуг -->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="far fa-lightbulb"></i>
+                <h3>Легкость</h3>
+                <p>Простота и легкость в общении один из ключевых принципов нашей компании. Вас всегда смогут понять
+                    и выполнить все
+                    Ваши пожелания.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-users"></i>
+                <h3>Комфорт</h3>
+                <p>У нас большая команда которая готова выполнить любое Ваше пожелание, ведь для нас комфорт клиента на
+                    первом месте</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Безопасность</h3>
+                <p>Все наши услуги предоставляються на высшем уровне безопасности. Мы знаем на сколько безопасность
+                    важна и делаем все для соблюдения максимальной защиты нашего клиента.</p>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <!-- Футер сайта -->
+    <footer class="container-fluid">
+        <div class="container-fluid">
+            <div class="row padding text-center">
+                <div class="col-12">
+                    <h2>Социальные сети</h2>
+                </div>
+                <div class="col-12 social padding">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/rAF.js"></script>
+    <script src="js/demo-1.js"></script>
+</body>
+
+</html>
