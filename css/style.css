@@ -6,7 +6,7 @@ html {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     color: black;
-    background-color: rgb(255, 255, 255);
+    background-color: black;
 }
 
 .navbar-brand img {
@@ -36,7 +36,7 @@ html {
 }
 
 .display-4 {
-    color: #201f1f;
+    color: #ffffff;
 }
 
 .carousel-caption {
@@ -55,7 +55,7 @@ html {
 .card {
 
     height: 90%;
-    padding: 40px;
+    padding: 5px;
 }
 
 .btn,
