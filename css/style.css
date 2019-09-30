@@ -10,7 +10,7 @@ html {
 }
 
 .navbar-brand img {
-    width: 110px;
+    width: 90px;
 }
 
 .navbar-nav li {
@@ -54,8 +54,25 @@ html {
 
 .card {
 
-    height: 90%;
+    background-color: #000000;
+    border-color: #f0f0f0;
     padding: 5px;
+    margin-bottom: 1em;
+    height: 90%;
+
+}
+
+.card img {
+    height: 35%;
+}
+
+.card-title {
+    border-bottom: 2px solid rgb(216, 188, 63);
+    /* Параметры линии под текстом */
+    font-weight: normal;
+    /* Убираем жирное начертание */
+    padding-bottom: 5px;
+    /* Расстояние от текста до линии */
 }
 
 .btn,

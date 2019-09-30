@@ -10,7 +10,7 @@
 }
 
 .large-header {
-	background-image: url('../img/bg2.jpg');
+	background-image: url('../img/wp1.jpg');
 	/* opacity: 1.9 */
 }
 
@@ -31,10 +31,10 @@
 	position: absolute;
 	margin: 0;
 	padding: 0;
-	color: #f9f1e9;
+	color: #b39b4e;
 	text-align: center;
-	top: 50%;
-	left: 50%;
+	top: 30%;
+	left: 51%;
 	-webkit-transform: translate3d(-50%, -50%, 0);
 	transform: translate3d(-50%, -50%, 0);
 }
