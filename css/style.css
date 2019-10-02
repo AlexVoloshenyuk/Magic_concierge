@@ -7,7 +7,7 @@ html {
     font-family: 'Poppins', sans-serif;
     color: black;
     background-color: black;
-    background-image: url(../img/bg14.png);
+    background-image: url(../img/bg11122.png);
 }
 
 .navbar-brand img {
@@ -91,6 +91,19 @@ html {
 
 .padding {
     padding-bottom: 2em;
+}
+
+.container-fluid p {
+    border: 1px solid rgb(255, 255, 255);
+    /* Толщина рамки в пикселах,
+                           тип границы (в данном случае сплошная линия) и
+                           цвет линии */
+    padding: 5px;
+    background-color: #000;
+}
+
+.col-lg-6 img {
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .alert {
