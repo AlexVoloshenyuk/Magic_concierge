@@ -58,13 +58,13 @@ html {
     background-color: #000000;
     border-color: #f0f0f0;
     padding: 5px;
-    margin-bottom: 1em;
-    height: 90%;
+    margin-bottom: 5px;
+    height: 80%;
 
 }
 
 .card img {
-    height: 30%;
+    height: 45%;
 }
 
 .card-title {
