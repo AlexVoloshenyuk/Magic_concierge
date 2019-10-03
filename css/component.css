@@ -28,13 +28,14 @@
 }
 
 .main-title {
+	font-family: 'Domine', serif;
 	position: absolute;
 	margin: 0;
 	padding: 0;
 	color: #b39b4e;
 	text-align: center;
 	top: 30%;
-	left: 51%;
+	left: 50%;
 	-webkit-transform: translate3d(-50%, -50%, 0);
 	transform: translate3d(-50%, -50%, 0);
 }

@@ -40,11 +40,28 @@ html {
     color: #ffffff;
 }
 
+.display-4,
+.h1 {
+    font-family: 'Domine', serif;
+    border-bottom: 2px solid rgb(216, 188, 63);
+    /* Параметры линии под текстом */
+    font-weight: normal;
+    /* Убираем жирное начертание */
+    padding-bottom: 5px;
+    /* Расстояние от текста до линии */
+}
+
 .carousel-caption {
     position: absolute;
     top: 50%;
     transform: translateY(-80%);
     text-shadow: 1px 1px 10px #000;
+}
+
+@media(max-width: 450px) {
+    #fixed {
+        font-size: 1em;
+    }
 }
 
 @media(max-width: 450px) {
@@ -68,6 +85,7 @@ html {
 }
 
 .card-title {
+    font-family: 'Domine', serif;
     border-bottom: 2px solid rgb(216, 188, 63);
     /* Параметры линии под текстом */
     font-weight: normal;
