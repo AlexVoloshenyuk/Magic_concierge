@@ -198,22 +198,55 @@ p {
 }
 
 .fa-facebook {
-    color: #3b5998
+
+    padding-top: 20px;
 }
 
 .fa-instagram {
-    color: #e65834
+
+    padding-top: 20px;
 }
 
-.fa-facebook:hover,
-.fa-instagram:hover,
+.fa-twitter {
+    padding-top: 20px;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    color: #e65834;
+}
+
 .fa-twitter:hover {
-    color: #000;
+    color: rgb(48, 130, 236);
 }
 
 footer {
-    background-color: #3f3f3f;
-    box-sizing: content-box;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #000000;
+    /* box-sizing: content-box; */
     border-top: 4px solid silver;
-    color: #f0f0f0;
+    /* color: #f0f0f0; */
+}
+
+footer a {
+    color: #807a7a;
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+footer p {
+    border-radius: none;
+}
+
+.logo img {
+    height: 100px;
+    padding-top: 20px;
+
 }
