@@ -169,7 +169,7 @@ p {
     border-bottom: 4px solid #f0f0f0;
     background: url(..//img/img111.jpg) no-repeat center center fixed;
     background-blend-mode: multiply;
-    background-color: rgb(221, 207, 142);
+    background-color: rgb(231, 218, 158);
     background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -239,10 +239,6 @@ footer a {
     color: #807a7a;
     font-size: 17px;
     margin-left: 15px;
-}
-
-footer p {
-    border-radius: none;
 }
 
 .logo img {
