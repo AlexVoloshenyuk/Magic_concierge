@@ -60,7 +60,13 @@ html {
 }
 
 @media(max-width: 450px) {
-    .carousel-caption .display-2 .swiper-slide .text {
+    .swiper-slide .text {
+        font-size: 2em;
+    }
+}
+
+@media(max-width: 450px) {
+    .carousel-caption .display-2 {
         font-size: 3em;
     }
 }
