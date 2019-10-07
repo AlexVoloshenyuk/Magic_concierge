@@ -18,6 +18,7 @@
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
     </script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="../Magic_concierge/img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/animate.min.css">
@@ -83,7 +84,7 @@
 
     <!-- Карточки с услугам -->
 
-    <div class="container-fluid padding">
+    <!-- <div class="container-fluid padding">
         <div class="row alert text-center">
             <div class="col-12">
                 <h1 class="display-4">Услуги которые мы предоставляем</h1>
@@ -91,8 +92,63 @@
             </div>
 
         </div>
+    </div> -->
+
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="parallax-bg" style="background-image:url(./img/bg12345.jpg)" data-swiper-parallax="-23%"></div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-300">Event organization</div>
+                <div class="subtitle" data-swiper-parallax="-200">we are the best</div>
+                <div class="text" data-swiper-parallax="-100">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet
+                        faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem
+                        justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem
+                        at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                        tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-300" data-swiper-parallax-opacity="0">Slide 2</div>
+                <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                <div class="text" data-swiper-parallax="-100">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet
+                        faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem
+                        justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem
+                        at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                        tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-300">Slide 3</div>
+                <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+                <div class="text" data-swiper-parallax="-100">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet
+                        faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem
+                        justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem
+                        at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
+                        tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
     </div>
-    <div class="container padding">
+
+
+
+
+
+
+
+
+
+    <!-- <div class="container padding">
         <div class="row padding">
             <div class="col-md-4">
                 <div class="card  text-white">
@@ -580,10 +636,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Простая секция с изображением -->
-    <div class="container-fluid padding">
+    <!-- <div class="container-fluid padding">
         <div class="row padding">
             <div class="offset-lg-1 col-lg-4 text-white">
                 <h2>Что-то про сервис</h2>
@@ -605,7 +661,7 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Блок с фиксированным изображением -->
     <figure>
         <div class="fixed-wrap">
@@ -705,6 +761,30 @@
         </div>
         <h6>©2019 Magic Concierge</h6>
     </footer>
+
+
+    <!-- Swiper JS -->
+    <script src="../Magic_concierge/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            speed: 600,
+            parallax: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+
+
+
 
     <script src="js/TweenLite.min.js"></script>
     <script src="js/EasePack.min.js"></script>
