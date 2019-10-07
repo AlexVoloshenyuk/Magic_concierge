@@ -7,8 +7,8 @@ html {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     color: black;
-    background-color: black;
-    background-image: url(../img/bg11122.png);
+    background-color: rgb(41, 45, 49);
+    /* background-image: url(../img/404.jpg); */
 }
 
 .navbar-brand img {
@@ -119,13 +119,14 @@ p {
 }
 
 .container-fluid p {
-    border: 1px solid rgb(255, 255, 255);
+    /* border: 1px solid rgb(255, 255, 255); */
     /* Толщина рамки в пикселах,
                            тип границы (в данном случае сплошная линия) и
                            цвет линии */
     padding: 5px;
-    background-color: #000;
+    /* background-color: #000; */
 }
+
 
 .col-lg-6 img {
     border: 1px solid rgb(255, 255, 255);
@@ -258,7 +259,7 @@ footer a {
 
 .swiper-slide {
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 40px 60px;
@@ -276,10 +277,11 @@ footer a {
 }
 
 .swiper-slide .title {
+    font-family: 'Domine', serif;
     font-size: 40px;
     font-weight: 300;
     text-align: center;
-    background-color: #000;
+    /* background-color: #000; */
     padding: 10px;
     margin: 10px;
 }
@@ -289,10 +291,11 @@ footer a {
 }
 
 .swiper-slide .text {
+    font-family: 'Domine', serif;
     font-size: 20px;
     max-width: 400px;
     line-height: 1.3;
-    background-color: #000;
+    /* background-color: #000; */
     padding: 10px;
     /* Поля вокруг текста */
     /* margin: 10px; */
