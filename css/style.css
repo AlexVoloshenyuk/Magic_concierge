@@ -60,7 +60,7 @@ html {
 }
 
 @media(max-width: 450px) {
-    .carousel-caption .display-2 {
+    .carousel-caption .display-2 .swiper-slide .text {
         font-size: 3em;
     }
 }
