@@ -8,7 +8,7 @@ html {
     font-family: 'Poppins', sans-serif;
     color: black;
     background-color: rgb(41, 45, 49);
-    /* background-image: url(../img/404.jpg); */
+    /* background-image: url(../img/headerConcierge.jpg); */
 }
 
 .navbar-brand img {
@@ -231,13 +231,23 @@ footer {
     text-align: center;
     padding-top: 20px;
     background-color: #000000;
+    background-image: url(../img/concierge-services-banner.jpg);
+    background-repeat: no-repeat;
+    -moz-background-size: 100%;
+    /* Firefox 3.6+ */
+    -webkit-background-size: 100%;
+    /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%;
+    /* Opera 9.6+ */
+    background-size: 100%;
+    /* Современные браузеры */
     /* box-sizing: content-box; */
     border-top: 4px solid silver;
     /* color: #f0f0f0; */
 }
 
 footer a {
-    color: #807a7a;
+    color: #ffffff;
     font-size: 17px;
     margin-left: 15px;
 }
